@@ -1,0 +1,48 @@
+#wrap{overflow: hidden}
+#menu_gnb{float: left; background: #242b2e; min-height: 1167px; overflow: hidden;}
+#menu_gnb h1{padding:35px 62px;background: #fff; overflow: hidden;}
+#menu_gnb .tab_menu li{padding:17px 25px 17px 0; text-align: right; border:1px solid #293034; background: #2f363a}
+#menu_gnb .tab_menu  li a{ display: block; font-size: 18px; color:#f1f1f2;}
+#menu_gnb .tab_menu li:hover{background:#2eb9b7;border:1px solid #2eb9b7;}
+#menu_gnb .tab_menu .on{background:#2eb9b7;border:1px solid #2eb9b7;}
+#menu_gnb .filter_img{display: block; padding:17px 25px 17px 0; text-align: right;}
+#menu_gnb .filter_menu{padding-bottom:30px; border-bottom: 1px solid #1e282b  }
+#menu_gnb .filter_menu li{margin-top:15px; padding-right:25px; text-align: right; }
+#menu_gnb .filter_menu li a:hover{color:#fafafa}/*sub메뉴 선택시 일어나는 이벤트에 대해 변경함*/
+#menu_gnb .filter_menu li:first-child{margin-top:0;}
+#menu_gnb .filter_menu li a{display: block; color: #686d6f}
+#menu_gnb .filter_menu .on a{color:#fafafa}
+
+#menu_gnb .communication {padding:30px 25px 30px 0 ; overflow:hidden;float: right; overflow: hidden}
+#menu_gnb .communication li {float: left; margin-left: 10px;}
+#menu_gnb .communication li a{display:block;}
+#menu_gnb .communication li:first-child{margin-left: 0}
+#menu_gnb  .copyright{padding-right:25px; display: block; text-align: right; clear: both}/*영역 잘못 잡혀있어서 다시 잡아줌*/
+
+#container{float: left;padding:25px; background:#b4b7b8; }
+#container .contents{background:#fff; padding:25px; overflow: hidden;}
+#container .contents .left_contents{float: left;padding-right:30px; width:721px; border-right: 1px solid #e5e5e5;}
+#container .contents .left_contents span{display: block;}
+#container .contents .left_contents h2{margin-top: 25px; font-family:'굴림'}
+#container .contents .left_contents p + p{color:#a3a3a3; margin-top:45px ; }
+#container .contents .left_contents p {margin-top:20px; color:#a3a3a3; }
+#container .contents .left_contents .introduce{margin-bottom:30px;padding-bottom: 30px border-bottom: 1px solid #e5e5e5; }
+
+#container .contents .left_contents .our_staff ul{overflow: hidden; margin-left: -20px}
+#container .contents .left_contents .our_staff ul li{float: left; margin:20px 0 0 20px;}
+
+
+#container .contents .right_contents{float: right; padding-left: 30px;}
+#container .contents .right_contents ul li{overflow: hidden; margin-top: 15px; color:#727272;}
+#container .contents .right_contents ul li:first-child{margin-top: 0} /*ul 과 li첫번째와 마진겹침으로 인해 첫번째 li 마진값 0으로 변경*/
+#container .contents .right_contents ul li .gragh_title{display: block;float: left}
+#container .contents .right_contents ul li .precent{display: block;float: right;}
+#container .contents .right_contents ul li .gragh_img{display: block; }
+#container .contents .right_contents ul {margin-top: 20px}
+
+#container .contents .right_contents .testimonials{margin-top: 30px}
+#container .contents .right_contents .testimonials span{display: block; margin:20px 0}
+#container .contents .right_contents .testimonials p{ padding: 0 30px;color:#727272;}
+
+#container .contents .right_contents .services{margin-top: 60px}
+#container .contents .right_contents .services li{margin-top: 10px; padding-left:15px; background: url(images/list_bg.png) left center no-repeat;}
